@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
   console.log("I have these thingies:", button, counterElement, counter);
   // Increment the counter
   counter++;
-  
+
   // Update the displayed counter
   counterElement.textContent = counter.toString();
 });
